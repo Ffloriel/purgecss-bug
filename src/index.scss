@@ -1,0 +1,20 @@
+.unused-class {
+  display: block;
+}
+
+#unused-id {
+  display: block;
+}
+
+.icon {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  font-family: "font-awesome";
+  font-style: normal;
+  font-weight: normal;
+}
